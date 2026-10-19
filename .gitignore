@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL: Never commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# Production builds
+dist/
+dist-ssr/
+build/
+.vercel/
+
+# Uploads and temporary files
+uploads/
+temp/
+scratch/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & SQLite fallbacks
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
